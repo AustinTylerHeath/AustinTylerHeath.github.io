@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Austin Tyler Heath — 3D Artist and Filmmaker portfolio.">
+  <meta name="description" content="Austin Tyler Heath — 3D Artist and Filmmaker specializing in cinematic environments, hard-surface modeling, look development, and visual storytelling.">
   <title>Austin Tyler Heath — 3D Artist & Filmmaker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="nav">
-    <a class="logo" href="#top">AUSTIN<span>.</span></a>
+    <a class="brand" href="#top" aria-label="Austin Tyler Heath home">
+      <span>Austin Tyler</span><strong>Heath</strong>
+    </a>
     <nav>
-      <a href="#work">Work</a>
+      <a href="#work">Selected Work</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -22,123 +24,127 @@
 
   <main id="top">
     <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">3D ARTIST • FILMMAKER • STORYTELLER</p>
-        <h1>Building worlds<br><em>worth remembering.</em></h1>
-        <p class="hero-copy">
+      <div class="hero-copy">
+        <p class="kicker">3D ARTIST / FILMMAKER</p>
+        <h1>Creating images<br><span>with a point of view.</span></h1>
+        <p class="intro">
           Austin Tyler Heath is a 3D artist and filmmaker focused on cinematic
           environments, hard-surface modeling, look development, and visual storytelling.
         </p>
-        <div class="hero-buttons">
-          <a class="button primary" href="#work">View my work</a>
-          <a class="button secondary" href="#about">About me</a>
-        </div>
+        <a class="text-link" href="#work">Explore selected work <span>↘</span></a>
       </div>
-      <div class="hero-art">
-        <div class="hero-placeholder">
-          <span>YOUR HERO RENDER</span>
-          <small>Replace this with your strongest cinematic image</small>
+
+      <div class="hero-frame artwork">
+        <div class="placeholder">
+          <span>FEATURED ARTWORK</span>
+          <small>Drop your strongest render here</small>
         </div>
+        <div class="frame-label">01 / FEATURED</div>
       </div>
     </section>
 
-    <section id="work" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">SELECTED WORK</p>
-        <h2>Worlds, objects & stories.</h2>
+    <section id="work" class="work section">
+      <div class="section-top">
+        <div>
+          <p class="kicker">SELECTED WORK</p>
+          <h2>Built for the frame.</h2>
+        </div>
+        <p class="section-note">Environment / Asset / Look Development / Film</p>
       </div>
 
-      <div class="projects">
-        <article class="project featured">
-          <div class="project-image">
-            <div class="image-placeholder">GAS STATION / ENVIRONMENT</div>
+      <div class="grid">
+        <article class="project project-large">
+          <div class="artwork project-art">
+            <div class="placeholder"><span>GAS STATION</span><small>Replace with final render</small></div>
+            <div class="number">01</div>
           </div>
-          <div class="project-info">
-            <p class="project-type">ENVIRONMENT • LOOK DEVELOPMENT</p>
-            <h3>Gas Station</h3>
-            <p>A stylized cinematic environment created with an emphasis on modeling, materials, lighting, and atmosphere.</p>
-            <a href="#contact">View project →</a>
-          </div>
-        </article>
-
-        <article class="project">
-          <div class="project-image">
-            <div class="image-placeholder">ICE / FROZEN LAKE</div>
-          </div>
-          <div class="project-info">
-            <p class="project-type">SHADING • LOOK DEVELOPMENT</p>
-            <h3>Frozen Lake</h3>
-            <p>Procedural stylized ice and water materials developed for a saturated cinematic environment.</p>
-            <a href="#contact">View project →</a>
+          <div class="project-meta">
+            <div>
+              <p class="type">ENVIRONMENT / LOOK DEVELOPMENT</p>
+              <h3>Gas Station</h3>
+            </div>
+            <p class="description">A stylized cinematic environment developed around modeling, materials, lighting, atmosphere, and composition.</p>
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-image">
-            <div class="image-placeholder">HARD SURFACE ASSET</div>
+        <article class="project project-small">
+          <div class="artwork project-art">
+            <div class="placeholder"><span>FROZEN LAKE</span><small>Replace with final render</small></div>
+            <div class="number">02</div>
           </div>
-          <div class="project-info">
-            <p class="project-type">HARD SURFACE • MODELING</p>
-            <h3>Hero Asset</h3>
-            <p>A production-minded hard-surface asset designed to balance clean forms with a strong visual identity.</p>
-            <a href="#contact">View project →</a>
+          <div class="project-meta">
+            <div>
+              <p class="type">SHADING / LOOK DEVELOPMENT</p>
+              <h3>Frozen Lake</h3>
+            </div>
+            <p class="description">Procedural stylized ice designed for a saturated, cinematic world.</p>
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-image">
-            <div class="image-placeholder">FILM / STORY</div>
+        <article class="project project-small">
+          <div class="artwork project-art">
+            <div class="placeholder"><span>HARD-SURFACE</span><small>Replace with final render</small></div>
+            <div class="number">03</div>
           </div>
-          <div class="project-info">
-            <p class="project-type">FILMMAKING • STORYTELLING</p>
-            <h3>Mango</h3>
-            <p>An original character and short-film world built around visual comedy, adventure, and heart.</p>
-            <a href="#contact">View project →</a>
+          <div class="project-meta">
+            <div>
+              <p class="type">HARD-SURFACE / MODELING</p>
+              <h3>Hero Asset</h3>
+            </div>
+            <p class="description">Production-minded modeling with a focus on silhouette, detail, materials, and presentation.</p>
+          </div>
+        </article>
+
+        <article class="project project-large">
+          <div class="artwork project-art">
+            <div class="placeholder"><span>MANGO</span><small>Replace with film still / artwork</small></div>
+            <div class="number">04</div>
+          </div>
+          <div class="project-meta">
+            <div>
+              <p class="type">FILMMAKING / STORYTELLING</p>
+              <h3>Mango</h3>
+            </div>
+            <p class="description">An original character and story world built around visual comedy, adventure, and heart.</p>
           </div>
         </article>
       </div>
     </section>
 
     <section id="about" class="about section">
-      <div>
-        <p class="eyebrow">ABOUT</p>
-        <h2>3D artist with a filmmaker's eye.</h2>
+      <div class="about-title">
+        <p class="kicker">ABOUT AUSTIN TYLER HEATH</p>
+        <h2>Artist first.<br>Filmmaker always.</h2>
       </div>
-      <div class="about-copy">
-        <p>
-          I'm Austin Tyler Heath, a 3D artist and storyteller passionate about
-          film, animation, and creating memorable worlds.
-        </p>
-        <p>
-          My work combines environment and hard-surface modeling with materials,
-          lighting, and composition to create images that feel cinematic and
-          intentional. I'm especially interested in stylized worlds that still
-          have believable form, texture, and atmosphere.
-        </p>
-        <div class="skills">
-          <span>Maya</span><span>Arnold</span><span>Substance 3D Painter</span>
-          <span>Nuke</span><span>Photoshop</span><span>Premiere Pro</span>
+      <div class="about-body">
+        <p class="lead">I create 3D imagery with the mindset of a filmmaker — using design, lighting, materials, and composition to make a world feel lived-in before a character ever enters the frame.</p>
+        <p>My work sits between environment art and visual storytelling, with a particular interest in stylized worlds that retain believable form, texture, and atmosphere. I enjoy taking an idea from a blank scene to an image that feels like it belongs on screen.</p>
+        <div class="tool-list">
+          <span>Maya</span><span>Arnold</span><span>Substance 3D Painter</span><span>Nuke</span><span>Photoshop</span><span>Premiere Pro</span>
         </div>
       </div>
     </section>
 
     <section id="contact" class="contact section">
-      <p class="eyebrow">LET'S CONNECT</p>
-      <h2>Have a project<br><em>in mind?</em></h2>
-      <p>For work, collaborations, or just to say hello.</p>
-      <a class="contact-link" href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
-      <div class="socials">
-        <a href="#" aria-label="ArtStation">ArtStation</a>
-        <a href="#" aria-label="IMDb">IMDb</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
+      <div>
+        <p class="kicker">CONTACT</p>
+        <h2>Let's make<br><span>something memorable.</span></h2>
+      </div>
+      <div class="contact-bottom">
+        <a class="email" href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+        <div class="socials">
+          <a href="#">ArtStation</a>
+          <a href="#">IMDb</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <span>© 2026 Austin Tyler Heath</span>
-    <span>3D Artist • Filmmaker</span>
+    <span>Austin Tyler Heath</span>
+    <span>© 2026</span>
   </footer>
   <script src="script.js"></script>
 </body>

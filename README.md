@@ -1,21 +1,14 @@
-# Austin Tyler Heath — Portfolio
+# Austin Tyler Heath — Official Website
 
-A clean, cinematic portfolio starter designed for GitHub Pages.
+A cinematic, image-first website for Austin Tyler Heath, 3D Artist and Filmmaker.
 
-## Files
-- `index.html` — site content
-- `style.css` — visual design and responsive layout
-- `script.js` — small scroll-reveal enhancement
+## Edit
+- `index.html` — text, project titles, links
+- `style.css` — colors, typography, spacing, layout
+- `script.js` — scroll reveal
 
-## Before publishing
-1. Replace the placeholder project/hero areas with your renders.
-2. Replace `YOUR-EMAIL@example.com`.
-3. Replace the `#` social links with your real profiles.
-4. Add your resume PDF if desired.
+## Recommended next step
+Replace the artwork placeholders with final renders. Keep the image dimensions high-resolution; the layout is designed to let the artwork carry the visual weight.
 
 ## GitHub Pages
-Create a GitHub repository (for example `portfolio`), upload these files to the repository's root, then go to:
-
-Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save
-
-Your site will then be available through your GitHub Pages address. A custom domain such as `AustinTylerHeath.com` can be connected afterward.
+Repository Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
